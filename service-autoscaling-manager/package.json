@@ -1,0 +1,33 @@
+{
+  "name": "service-autoscaling-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node_modules/.bin/ava tests/**/*.test.js",
+    "test:watch": "node_modules/.bin/ava --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.371.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "lambda-local": "^1.5.2",
+    "sinon": "^7.2.0"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "cache": false,
+    "concurrency": 5,
+    "failFast": true,
+    "verbose": false,
+    "tap": true
+  }
+}

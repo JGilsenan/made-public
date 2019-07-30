@@ -1,0 +1,32 @@
+{
+  "ServiceName": "TODO: string",
+  "ServiceArn": "TODO: string",
+  "Scalable": "TODO: boolean",
+  "DesiredCount": "TODO: number",
+  "ScalingConfig": {
+    "ScalableTarget": {
+      "ResourceId": "TODO: string",
+      "MinCapacity": "TODO: number",
+      "MaxCapacity": "TODO: number"
+    },
+    "MetricName":  "TODO: string",
+    "ScalingOutPolicy": {
+      "PolicyName": "TODO: string",
+      "PolicyArn": "TODO: string",
+      "AlarmName":  "TODO: string"
+    },
+    "ScalingInPolicy": {
+      "PolicyName": "TODO: string",
+      "PolicyArn": "TODO: string",
+      "AlarmName":  "TODO: string"
+    }
+  },
+  "Task": {
+    "DefinitionArn": "TODO: string",
+    "Cpu": "TODO: string or number",
+    "Mem": "TODO: string or number",
+    "ContainersCpu": "TODO: string or number",
+    "ContainersMem": "TODO: string or number",
+    "ContainersMemReservation": "TODO: string or number"
+  }
+}

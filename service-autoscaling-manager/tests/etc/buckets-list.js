@@ -1,0 +1,1 @@
+module.exports = ['cf-templates-1pwxvqsgf5jpl-us-east-1', '064143131841-sb-cluster'];
